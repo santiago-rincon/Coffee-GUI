@@ -1,0 +1,20 @@
+.card-1{
+    width: 400px;
+    height: auto;
+    position: absolute;
+    margin-left: 30px;
+}
+
+.card-2{
+    width: 400px;
+    position: absolute;
+    height: auto;
+    margin-left: 465px;
+}
+
+.card-3{
+    width: 400px;
+    position: absolute;
+    height: auto;
+    margin-left: 900px;
+}

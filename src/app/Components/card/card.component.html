@@ -1,0 +1,39 @@
+<!-- flip-card-container -->
+<div class="flip-card-container" style="--hue: 220">
+    <div class="flip-card">
+  
+      <div class="card-front">
+        <figure>
+          <div class="img-bg"></div>
+          <img src='{{img_front}}' alt="{{title}}">
+          <figcaption>{{title}}</figcaption>
+        </figure>
+  
+        <ul>
+          <li>Lectura del Sensor</li>
+          <li>{{sensor}}</li>
+        </ul>
+      </div>
+  
+      <div class="card-back">
+        <figure>
+          <div class="img-bg"></div>
+          <img src='{{img_back}}' alt="{{title}}">
+        </figure>
+  
+        <button routerLink="/variables/{{route}}">Revisar</button>
+  
+        <div class="design-container">
+          <span class="design design--1"></span>
+          <span class="design design--2"></span>
+          <span class="design design--3"></span>
+          <span class="design design--4"></span>
+          <span class="design design--5"></span>
+          <span class="design design--6"></span>
+          <span class="design design--7"></span>
+          <span class="design design--8"></span>
+        </div>
+      </div>
+  
+    </div>
+  </div>
